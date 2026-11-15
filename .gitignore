@@ -1,0 +1,6 @@
+.DS_Store
+*.o
+*.a
+*.out
+a.out
+testeur_des_fous/

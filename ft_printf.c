@@ -6,7 +6,14 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/16 17:31:00 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/16 17:31:01 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/16 17:47:19 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "ft_printf.h"
+
+int	ft_printf(const char *format, ...)
+{
+	(void)format;
+	return (0);
+}

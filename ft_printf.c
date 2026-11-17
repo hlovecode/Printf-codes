@@ -6,12 +6,13 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/16 17:31:00 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/17 10:08:08 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/17 10:11:52 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_printf(const char *format, ...)
 {
 	(void)format;
+	printf("test");
 	return (0);
 }

@@ -24,8 +24,7 @@ Le travail du Printf est le suivant:
 | `ft_print_number.c`    | Traitement de `%d` et `%i`                                                                 |
 | `ft_print_unsigned.c`  | Traitement de `%u`                                                                         |
 | `ft_print_hex.c`       | Traitement de `%x` et `%X`                                                                 |
-| `ft_print_pointer.c`   | Traitement de `%p`                                                                         |
-| `libft/`               | Réutilisation de Libft                                                                     |
+| `ft_print_pointer.c`   | Traitement de `%p`                                                                                                                                        |
 | `Makefile`             | la compilation des fonctions et l'archive finale                                           |
 
 ### Instructions

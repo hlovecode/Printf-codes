@@ -6,10 +6,11 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/16 17:31:00 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/17 10:12:43 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/18 10:26:37 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+// format: the last fixed argument
 int	ft_printf(const char *format, ...)
 {
 	(void)format;

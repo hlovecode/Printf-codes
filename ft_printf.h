@@ -6,7 +6,7 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/16 16:59:32 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/18 13:11:29 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/18 21:55:35 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 
 # include <stdarg.h>
 # include <stdint.h>
-# include <stdlib.h>
 # include <unistd.h>
 
 /* prototype */
@@ -33,19 +32,19 @@ int	ft_print_string(char *str);
 int	ft_string_conversion(va_list *args);
 
 /* number */
-int	ft_print_number(int number);
-int	ft_print_number_conversion(va_list *args);
+int	ft_print_number(int num);
+int	ft_num_conversion(va_list *args);
 
 /* unsigned number */
-int	ft_print_unsigned(unsigned int number);
-int	ft_print_unsigned_conversion(va_list *args);
+int	ft_print_unsigned(unsigned int num);
+int	ft_unsigned_conversion(va_list *args);
 
 /* hexadecimal */
-int	ft_print_hex(unsigned int number, char specifier);
-int	ft_print_hex_conversion(va_list *args, char specifier);
+int	ft_print_hex(unsigned int num, char specifier);
+int	ft_hex_conversion(va_list *args, char specifier);
 
 /* pointer */
 int	ft_print_pointer(void *ptr);
-int	ft_print_pointer_conversion(va_list *args);
+int	ft_pointer_conversion(va_list *args);
 
 #endif

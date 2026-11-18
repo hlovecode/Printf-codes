@@ -6,7 +6,7 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/18 11:17:25 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/18 13:07:40 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/18 21:50:56 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,10 @@ int	ft_print_char(char c)
 
 int	ft_char_conversion(va_list args)
 {
-	char c;
+	char	c;
+	int		result;
 
 	c = (char)va_arg(args, int);
-	return (ft_print_char(c));
+	result = ft_print_char(c);
+	return (result);
 }

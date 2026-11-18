@@ -6,7 +6,7 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/18 11:19:17 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/18 21:22:52 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/18 22:28:09 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ int	ft_print_hex(unsigned int num, char specifier)
 		base = "0123456789abcdef";
 	else
 		base = "0123456789ABCDEF";
-	return (ft_print_hex_recursive(num, base));
+	return (ft_hex_recursive(num, base));
 }
 
 int	ft_hex_conversion(va_list *args, char specifier)

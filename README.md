@@ -4,7 +4,7 @@
 
 ### Description
 
-Le travail de la function ft_printf est le suivant:
+Le travail du Printf est le suivant:
 
 1. Recevoir la chaîne de format et les arguments variables
 2. Parcourir la chaîne de format du début à la fin
@@ -30,6 +30,12 @@ Le travail de la function ft_printf est le suivant:
 
 ### Instructions
 
+- Run make to compile the library
 
+- Simple clean that will only remove the object files : make clean
+
+- Full clean that will remove object files as well as the library : make fclean
 
 ### Resources
+
+- testeur du projet: [Github-SplatchAK/testeur_des_fous](https://github.com/SplatchAFK/testeur_des_fous)

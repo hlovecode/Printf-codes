@@ -2,15 +2,10 @@
 
 *This activity has been created as part of the 42 curriculum by hualei.*
 
-Ce projet exige la compréhension de plusieurs mécanismes fondamentaux du langage C:
-- Les fonctions à arguments variables (Variadic Functions)
-- Les pointeurs et la gestion de la mémoire
-- L'analyse de chaînes de caractères (Parsing)
-- Les types de données et les conversions de types
-- La conversion de nombres entre différentes bases
-- La sortie formatée (Formatting)
+### Description
 
 Le travail de la function ft_printf est le suivant:
+
 1. Recevoir la chaîne de format et les arguments variables
 2. Parcourir la chaîne de format du début à la fin
 3. En cas de caractère ordinaire, l'afficher directement
@@ -20,5 +15,21 @@ Le travail de la function ft_printf est le suivant:
 7. Compter le nombre de caractères réellement affichés
 8. Retourner ce nombre de caractères
 
+| Fonction               | Utilités                                                                                   |
+| ---------------------- | ------------------------------------------------------------------------------------------ |
+| `ft_printf.c`          | Contrôlez l'intégralité du processus d'exécution, gérez `va_list` et les valeurs de retour |
+| `ft_printf_dispatch.c` | Identifier les spécificateurs de conversion                                                |
+| `ft_print_char.c`      | Fournit une sortie de caractères                                                           |
+| `ft_print_string.c`    | Traitement de `%s`                                                                         |
+| `ft_print_number.c`    | Traitement de `%d` et `%i`                                                                 |
+| `ft_print_unsigned.c`  | Traitement de `%u`                                                                         |
+| `ft_print_hex.c`       | Traitement de `%x` et `%X`                                                                 |
+| `ft_print_pointer.c`   | Traitement de `%p`                                                                         |
+| `libft/`               | Réutilisation de Libft                                                                     |
+| `Makefile`             | la compilation des fonctions et l'archive finale                                           |
+
+### Instructions
 
 
+
+### Resources

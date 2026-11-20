@@ -4,7 +4,7 @@
 
 ### Description
 
-Le travail du Printf est le suivant:
+Le travail du Printf est:
 
 1. Recevoir la chaîne de format et les arguments variables
 2. Parcourir la chaîne de format du début à la fin
@@ -25,7 +25,7 @@ Le travail du Printf est le suivant:
 | `ft_print_unsigned.c`  | Traitement de `%u`                                                                         |
 | `ft_print_hex.c`       | Traitement de `%x` et `%X`                                                                 |
 | `ft_print_pointer.c`   | Traitement de `%p`                                                                                                                                        |
-| `Makefile`             | la compilation des fonctions et l'archive finale                                           |
+| `Makefile`             | Compilation des fonctions et l'archive finale                                           |
 
 ### Instructions
 

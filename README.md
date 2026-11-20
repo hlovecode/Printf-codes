@@ -37,4 +37,4 @@ Le travail du Printf est:
 
 ### Resources
 
-- testeur du projet: [Github-SplatchAK/testeur_des_fous](https://github.com/SplatchAFK/testeur_des_fous)
+- testeur du projet: [Github-Tripouille / printfTester](https://github.com/Tripouille/printfTester)

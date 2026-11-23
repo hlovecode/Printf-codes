@@ -20,11 +20,11 @@ Le travail du Printf est:
 | ft_printf.c          | Contrôlez l'intégralité du processus d'exécution, gérez `va_list` et les valeurs de retour |
 | ft_printf_dispatch.c | Identifier les spécificateurs de conversion                                                |
 | ft_print_char.c      | Fournit une sortie de caractères                                                           |
-| ft_print_string.c    | Traitement de `%s`                                                                         |
-| ft_print_number.c    | Traitement de `%d` et `%i`                                                                 |
-| ft_print_unsigned.c  | Traitement de `%u`                                                                         |
-| ft_print_hex.c       | Traitement de `%x` et `%X`                                                                 |
-| ft_print_pointer.c   | Traitement de `%p`                                                                                                                                        |
+| ft_print_string.c    | Traitement de %s                                                                         |
+| ft_print_number.c    | Traitement de %d et %i                                                                 |
+| ft_print_unsigned.c  | Traitement de %u                                                                        |
+| ft_print_hex.c       | Traitement de %x et %X                                                                 |
+| ft_print_pointer.c   | Traitement de %p                                                                                                                            |
 | Makefile             | Compilation des fonctions et l'archive finale                                           |
 
 ### Instructions

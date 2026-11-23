@@ -1,6 +1,6 @@
-# Printf
-
 *This activity has been created as part of the 42 curriculum by hualei.*
+
+# Printf
 
 ### Description
 
@@ -38,3 +38,6 @@ Le travail du Printf est:
 ### Resources
 
 - testeur du projet: [Github-Tripouille / printfTester](https://github.com/Tripouille/printfTester)
+
+- AI usage:
+	- explication de la functionalité de la function printf en C

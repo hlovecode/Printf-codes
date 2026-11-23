@@ -6,7 +6,7 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/18 11:19:43 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/23 16:47:38 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/23 17:06:38 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,7 @@ int	ft_print_pointer(void *ptr)
 
 	if (ptr == NULL)
 	{
-		write(1, "(nil)",5);
+		write(1, "(nil)", 5);
 		return (5);
 	}
 	address = (unsigned long)ptr;

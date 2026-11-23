@@ -6,14 +6,14 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/18 11:19:43 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/18 21:30:23 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/23 16:47:38 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
 // handle %p
-static int	ft_pointer_recursive(uintptr_t addr)
+static int	ft_pointer_recursive(unsigned long addr)
 {
 	int	result;
 	int	count;
@@ -48,11 +48,16 @@ static int	ft_pointer_prefix(void)
 
 int	ft_print_pointer(void *ptr)
 {
-	uintptr_t	address;
-	int			count;
-	int			result;
+	unsigned long	address;
+	int				count;
+	int				result;
 
-	address = (uintptr_t)ptr;
+	if (ptr == NULL)
+	{
+		write(1, "(nil)",5);
+		return (5);
+	}
+	address = (unsigned long)ptr;
 	result = ft_pointer_prefix();
 	if (result == -1)
 		return (-1);

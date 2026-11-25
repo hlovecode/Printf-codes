@@ -29,16 +29,16 @@ Le travail du Printf est:
 
 ### Instructions
 
-- Run make to compile the library
+- Lancer `make` pour compiler la bibliothèque.
 
-- Simple clean that will only remove the object files : make clean
+- Nettoyage simple qui supprime uniquement les fichiers objets : `make clean`.
 
-- Full clean that will remove object files as well as the library : make fclean
+- Nettoyage complet qui supprime les fichiers objets ainsi que la bibliothèque : `make fclean`.
 
 ### Resources
 
 - testeur du projet: [Github-Tripouille / printfTester](https://github.com/Tripouille/printfTester)
 
 - AI usage:
-	- explication de la functionalité de la function printf en C. 
+	- explication de la functionalité de la function printf en C.
 	- explication sur arguments variables et comment les utiliser.

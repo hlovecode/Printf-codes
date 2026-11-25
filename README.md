@@ -15,7 +15,7 @@ Le travail du Printf est:
 7. Compter le nombre de caractères réellement affichés
 8. Retourner ce nombre de caractères
 
-| Fonction               | Utilités                                                                                   |
+| Fonctions               | Utilités                                                                                   |
 | ---------------------- | ------------------------------------------------------------------------------------------ |
 | ft_printf.c          | Contrôlez l'intégralité du processus d'exécution, gérez `va_list` et les valeurs de retour |
 | ft_printf_dispatch.c | Identifier les spécificateurs de conversion                                                |
@@ -40,4 +40,5 @@ Le travail du Printf est:
 - testeur du projet: [Github-Tripouille / printfTester](https://github.com/Tripouille/printfTester)
 
 - AI usage:
-	- explication de la functionalité de la function printf en C
+	- explication de la functionalité de la function printf en C. 
+	- explication sur arguments variables et comment les utiliser.

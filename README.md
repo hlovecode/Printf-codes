@@ -1,4 +1,4 @@
-*This activity has been created as part of the 42 curriculum by hualei.*
+*This activity has been created as part of the 42 curriculum by hualei*
 
 # Printf
 
@@ -15,17 +15,17 @@ Le travail du Printf est:
 7. Compter le nombre de caractères réellement affichés
 8. Retourner ce nombre de caractères
 
-| Fonctions               | Utilités                                                                                   |
-| ---------------------- | ------------------------------------------------------------------------------------------ |
+| Fonctions            | Utilités                                                                                   |
+| -------------------- | ------------------------------------------------------------------------------------------ |
 | ft_printf.c          | Contrôlez l'intégralité du processus d'exécution, gérez `va_list` et les valeurs de retour |
 | ft_printf_dispatch.c | Identifier les spécificateurs de conversion                                                |
 | ft_print_char.c      | Fournit une sortie de caractères                                                           |
-| ft_print_string.c    | Traitement de %s                                                                         |
-| ft_print_number.c    | Traitement de %d et %i                                                                 |
-| ft_print_unsigned.c  | Traitement de %u                                                                        |
-| ft_print_hex.c       | Traitement de %x et %X                                                                 |
-| ft_print_pointer.c   | Traitement de %p                                                                                                                            |
-| Makefile             | Compilation des fonctions et l'archive finale                                           |
+| ft_print_string.c    | Traitement de %s                                                                           |
+| ft_print_number.c    | Traitement de %d et %i                                                                     |
+| ft_print_unsigned.c  | Traitement de %u                                                                           |
+| ft_print_hex.c       | Traitement de %x et %X                                                                     |
+| ft_print_pointer.c   | Traitement de %p                                                                           |
+| Makefile             | Compilation des fonctions et l'archive finale                                              |
 
 ### Instructions
 
@@ -37,8 +37,8 @@ Le travail du Printf est:
 
 ### Resources
 
+- [KooR.fr - cstdarg stdarg.h - Langage C](https://koor.fr/C/cstdarg/cstdarg.wp)
+
 - testeur du projet: [Github-Tripouille / printfTester](https://github.com/Tripouille/printfTester)
 
-- AI usage:
-	- explication de la functionalité de la function printf en C.
-	- explication sur arguments variables et comment les utiliser.
+- AI usage: explication sur arguments variables et comment les utiliser.

@@ -6,7 +6,7 @@
 #    By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/11/16 17:30:26 by hualei            #+#    #+#              #
-#    Updated: 2026/11/18 22:11:10 by hualei           ###   ########.fr        #
+#    Updated: 2026/11/28 09:11:35 by hualei           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -52,6 +52,5 @@ clean:
 fclean: clean
 	$(RM) $(NAME)
 
-# rebuild static library
 re: fclean all
 .PHONY: all clean fclean re

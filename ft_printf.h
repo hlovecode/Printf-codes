@@ -6,7 +6,7 @@
 /*   By: hualei <hua.lei@learner.42.tech>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/16 16:59:32 by hualei            #+#    #+#             */
-/*   Updated: 2026/11/18 21:55:35 by hualei           ###   ########.fr       */
+/*   Updated: 2026/11/28 09:37:24 by hualei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@
 # include <stdint.h>
 # include <unistd.h>
 
-/* prototype */
 int	ft_printf(const char *format, ...);
 
 /* dispatcher */
